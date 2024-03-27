@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Tauri&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F1517;
+    color: white;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.section1_container_group {
+    background-color: #181012;
+}
+.section1_container {
+    
+    max-width: 1680px;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 6rem;
+    padding: 0rem 2rem;
+    margin: auto;
+
+    overflow: clip;
+}
+
+.container_left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    font-family: "Dosis";
+    margin-top: 5rem;
+}
+
+.container_left > h1 {
+    font-size: 5rem;
+}
+
+
+.container_left > hr {
+    width: 25rem;
+    border: 1px #B6635A solid ;
+}
+
+.container_new {
+    color: #B6635A;
+    text-transform: uppercase;
+    font-family: "Tauri";
+    font-size: 14px;
+
+}
+.image_container {
+    max-width: 45%; 
+    column-count: 4;
+    column-gap: 1rem;
+    margin: -1rem;
+                                                                                                                       
+}
+.image_container > figure > img {
+    width: 100%;
+    border-radius: 0.5rem;
+    
+}
