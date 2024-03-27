@@ -30,14 +30,14 @@
     
     display: flex;
     gap: 5rem;
-    margin-right: 15rem;
+    margin-right: 13rem;
 }
 
 .header_links a  {
     text-decoration: none;
     color: white;
     font-weight: 50px;
-    font-size: 18px;
+    font-size: 15px;
     padding: 0 3rem;
 }
 
@@ -48,4 +48,5 @@
     text-decoration: none;
     color: white;
     padding-right: 5rem;
+
 }
