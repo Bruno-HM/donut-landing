@@ -1,0 +1,51 @@
+
+.header nav {
+    max-width: 100%;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    font-weight: 800px;
+    font-family: "Tauri";
+    padding: 1rem;
+
+    
+}
+.header_title-text {
+    color: white;
+    text-decoration: none;
+}
+.header_title {
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    padding-left: 2rem;
+    
+}
+
+
+.header_links {
+    
+    display: flex;
+    gap: 5rem;
+    margin-right: 15rem;
+}
+
+.header_links a  {
+    text-decoration: none;
+    color: white;
+    font-weight: 50px;
+    font-size: 18px;
+    padding: 0 3rem;
+}
+
+.header_links .header_link-home {
+    color: #B6635A;
+}
+.header_github a{
+    text-decoration: none;
+    color: white;
+    padding-right: 5rem;
+}
