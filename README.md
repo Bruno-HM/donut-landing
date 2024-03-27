@@ -1,2 +1,4 @@
 # Donut-landing
-Uma landing page que fiz para treinamento do meu HTML e CSS
+Uma landing page que fiz para treiar meu HTML e CSS.
+
+Neste projeto consegui entender um pouco mais sobre a divisão de divs e principalmente sobre a flex-box
