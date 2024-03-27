@@ -19,7 +19,7 @@ main {
 }
 .section1_container {
     
-    max-width: 1680px;
+    max-width: 1648px;
     height: 60vh;
     display: flex;
     justify-content: space-between;
