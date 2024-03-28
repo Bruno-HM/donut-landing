@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 15px;
-    font-weight: 800px;
+    
     font-family: "Tauri";
     padding: 1rem;
 
@@ -25,12 +25,20 @@
     
 }
 
+.header_title a:hover{
+    color: #B6635A;
+}
 
 .header_links {
     
     display: flex;
     gap: 5rem;
     margin-right: 13rem;
+    font-weight: 700;
+}
+
+.header_links a:hover {
+    color: #d4d4d4;
 }
 
 .header_links a  {
@@ -48,5 +56,8 @@
     text-decoration: none;
     color: white;
     padding-right: 5rem;
+}
 
+.header_github a:hover {
+    color: #d4d4d4;
 }
