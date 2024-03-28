@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UlDonuts</title>
     <meta name="description" content="Explore dezenas de variações dessas delicinhas, donut nunca é demais!">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/main.css">
     
     
 </head>
@@ -60,51 +60,56 @@
                 </div>
             </section>
         </div>
-        <section>
-            <button>
-                <img src="assets/down-chevron.png" alt="">
+        <section class="button_container">
+            <button type="button">
+                <img src="assets/setabaixo.png" alt="">
             </button>
         </section>
         
-        <section>
-            <div>
+        <section class="container_receitas">
+            <div class="header_receitas">
                 <span>novidade</span>
                 <h3>Confira as últimas receitas</h3>
-                <p>Dê uma olhada nas receitas mais amadas!</p>
+                <p>Dê uma olhada nas mais amadas! 💕</p>
             </div>
-            <div class="container_receitas">
+
+            <div class="box_receitas">
 
                 <div class="receita1">
-                    <div class="receita1_header-top">
+                    <div class="receita1_header">
                         <div class="receita1_header-left">
-                            <span>EM ALTA 🔥</span>
-                            <span>Ovomaltine</span>
+                            <span class="receita1_status">EM ALTA 🔥</span>
+                            <span class="receita1_sabor">Ovomaltine 🍫 </span>
                         </div>
-                        <span>Delicioso • 4/4 </span>
+                        <span class="receita1_avali">Delicioso • 4/4 </span>
                     </div>
 
-                    <div class="receita1_autor">
+                    <div class="receita1_opiniao">
                         <p>Um sabor indescritível, sem dúvidas um dos melhores que ja provei.  </p>
-                        <span><img src="" alt="img autor 1"></span>
-                        <span>Bruno Marques.</span>
+                        <div class="receita1_autor">
+                            <span><img src="assets/bruno.jpeg" alt="img autor 1"></span>
+                            <span>Bruno Marques.</span>
+                        </div>
                     </div>
 
                 </div>
                 
                 <div class="receita2">
                     
-                    <div class="receita2_header-top">
+                    <div class="receita2_header">
                         <div class="receita2_header-left">
-                            <span>NOVO</span>
-                            <span>Frutas Vermelhas</span>
+                            <span class="receita2_status">NOVO</span>
+                            <span class="receita2_sabor">Frutas Vermelhas 🍓</span>
                         </div>
-                        <span class="receita2_header-right">Delicioso • 4/4 </span>
+                        <span class="receita2_avali">Delicioso • 4/4 </span>
                     </div>
                     
-                    <div class="receita2_autor">
+                    <div class="receita2_opiniao">
                         <p>Eu AMO frutas vermelhas, mas esse donut em específico, me deixa maluca! 😻 </p>
-                        <span><img src="" alt="img usuario 2"></span>
-                        <span>Lívia Maria.</span>
+                        <div class="receita2_autor">
+                            <span><img src="" alt="img usuario 2"></span>
+                            <span>Lívia Maria.</span>
+                        </div>
                     </div>
                 
                 </div>
@@ -113,16 +118,17 @@
 
                     <div class="receita3_header">
                         <div class="receita3_header-left">
-                            <span>NOVO</span>
-                            <span>Blue Berry</span>
+                            <span class="receita3_status">NOVO</span>
+                            <span class="receita3_sabor">Blue Berry 💙</span>
                         </div>
-                        <span class="receita3_header-right">Muito bom • 3/4 </span>
+                        <span class="receita3_avali">Muito bom • 3/4 </span>
                     </div>
-
-                    <div class="receita3_autor">
+                    <div class="receita3_opiniao">
                         <p>Simplesmente, maravilhoso, nao sabia que iria ser tão bom assim </p>
-                        <span><img src="" alt="img usuario 3"></span>
-                        <span>Taimon Andrew.</span>
+                        <div class="receita3_autor">
+                            <span><img src="" alt="img usuario 3"></span>
+                            <span>Taimon Andrew.</span>
+                        </div>
                     </div>
                 </div>
 
@@ -130,23 +136,27 @@
 
                     <div class="receita4_header">
                         <div class="receita4_header-left">
-                            <span>NOVO</span>
-                            <span>Chocolate</span>
+                            <span class="receita4_status">NOVO</span>
+                            <span class="receita4_sabor">Chocolate 🍪</span>
                         </div>
-                        <span class="receita4_header-right">Delicioso • 3/4 </span>
+                        <span class="receita4_avali">Delicioso • 3/4 </span>
                     </div>
-
-                    <div class="receita4_autor">
+                    <div class="receita4_opiniao">
                         <p>Pode até ser um clássico, mas pra mim, ainda é o melhor </p>
-                        <span><img src="" alt="img usuario"></span>
-                        <span>Lívia Maria.</span>
+                        <div class="receita4_autor">
+                            <span><img src="" alt="img usuario"></span>
+                            <span>Lívia Maria.</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <span><button>Carregar mais receitas...</button></span>
+
+            <div class="more">
+                <span><button>Carregar mais receitas...</button></span>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>Feito por Bruno Marques. </p>
     </footer>
 </body>
