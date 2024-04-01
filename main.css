@@ -128,11 +128,13 @@ main {
 
 .box_receitas {
     display: flex;
-    padding: 0rem 14rem;
+    padding: 0rem 3rem;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 2rem 4rem;
-    
+    column-count: 2; 
+    gap: 2rem;
+    min-width: 75%;
+    max-width: 65%;
 }
 
 .receita1 {
@@ -385,13 +387,14 @@ main {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 15px;
+    margin-left: 50%;
 }
 
 .footer > p {
-    margin-left: 46%;
+    display: flex;
     font-family: "Dosis";
     color: #B6635A;
     font-size: 12px;
-    
-
+    align-items: center;
+    justify-content: flex-end;
 }
