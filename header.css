@@ -9,8 +9,6 @@
     
     font-family: "Tauri";
     padding: 1rem;
-
-    
 }
 .header_title-text {
     color: white;
@@ -61,3 +59,19 @@
 .header_github a:hover {
     color: #d4d4d4;
 }
+
+@media(max-width: 600px){
+    .header_title {
+        font-size: 16px;
+        padding-left: 1rem;
+    }
+    .header_links {
+        display: none;
+        visibility: hidden;
+    }
+    .header_github a {
+        display: none;
+        visibility: none;
+    }
+}
+
