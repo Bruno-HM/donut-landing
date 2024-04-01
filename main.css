@@ -78,7 +78,6 @@ main {
 
 .button_container {
     width: 100%;
-    max-width: 1920px;
     margin: auto;
     transform: translate(0, '-50%');
 }
@@ -97,7 +96,7 @@ main {
     display: flex;
     flex-direction: column;
 
-    max-width: 1920px;
+    max-width: 100%;
     padding: 3rem 2rem;
     margin: auto;
     gap: 2rem;
@@ -387,7 +386,7 @@ main {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 15px;
-    margin-left: 50%;
+    
 }
 
 .footer > p {
@@ -397,4 +396,26 @@ main {
     font-size: 12px;
     align-items: center;
     justify-content: flex-end;
+}
+
+@media(max-width: 600px){ 
+    .container_left > h1 {
+        max-width: 50%;
+        font-size: 4rem;
+    }
+
+    .container_left > h2 {
+        font-size: 24px;
+        max-width: 65%;
+    }
+    .button_container > button {
+        margin-top: 1rem;
+    }
+
+    .box_receitas {
+        padding: 0rem 1rem;
+        max-width: 100%;
+    }
+
+
 }
