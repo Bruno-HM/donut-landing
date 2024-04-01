@@ -60,13 +60,9 @@
     color: #d4d4d4;
 }
 
-@media(max-width: 1023px){
-    .wl-flex{display: block!important;text-align: center;}
-}
-
 @media(max-width: 600px){
     .header_title {
-        font-size: 16px;
+        font-size: 22px;
         padding-left: 1rem;
     }
     .header_links {
@@ -77,5 +73,6 @@
         display: none;
         visibility: none;
     }
+
 }
 
