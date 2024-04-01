@@ -1,0 +1,64 @@
+:root{
+    --color-white:#fff;
+    --color-titulo:#34485e;
+    --color-font:#808080;
+
+}
+.clear{clear:both;}
+.clearfix::after{content: " ";display: table;clear: both;}
+
+/**************** WL CORES *************/
+
+.wl-white{color: #fff;}
+.wl-tradetitulo{color: var(--color-titulo)}
+.wl-background-color{background-color: #f2f2f2;}
+.wl-font-color{--color-font:#808080;}
+
+.wl-link:hover{text-decoration: none;}
+.wl-link{color: inherit;}
+/************** FIM WL CORES **************/
+
+
+/* ****************** FONTS WL ******************** */
+.wl-titulo1{font-size: 40px}
+.wl-titulo2{font-size: 2rem;}
+.wl-titulo3{font-size: 1.75rem;}
+.wl-titulo4{font-size: 1.5rem;}
+.wl-titulo5{font-size: 1.25rem;}
+.wl-titulo6{font-size: 1rem;}
+
+.wl-sub p{margin: 60px 0px;}
+.wl-subc p{margin: 40px 0px;text-align: center;}
+
+.wl-font12{font-size:12px;}
+.wl-font13{font-size:13px}
+.wl-font25{font-size:25px;}
+.wl-font14{font-size: 14px;}
+.wl-font16{font-size:16px}
+.wl-font17{font-size:17px;}
+.wl-font18{font-size:18px}
+.wl-font30{font-size: 30px;}
+.wl-font20{font-size:20px}
+.wl-font21{font-size: 21px;}
+.wl-font22{font-size:22px}
+.wl-font23{font-size:23px}
+.wl-font24{font-size: 24px;}
+.wl-font25{font-size:25px}
+.wl-font26{font-size:26px}
+.wl-font27{font-size: 27px;}
+.wl-font28{font-size:28px}
+.wl-font40{font-size: 40px;}
+.wl-bold{font-weight: bold;}
+.wl-bold200{font-weight: 200;}
+.wl-bold300{font-weight: 300;}
+.wl-bold400{font-weight: 400;}
+.wl-bold500{font-weight: 500;}
+.wl-bold600{font-weight: 600;}
+.wl-bold700{font-weight: 700;}
+.wl-bold800{font-weight: 800;}
+.wl-flex{display: flex!important;justify-content: center;}
+
+@media(max-width: 1023px){
+    .wl-flex{display: block!important;text-align: center;}
+}
+
